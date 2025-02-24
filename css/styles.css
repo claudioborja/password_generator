@@ -1,22 +1,15 @@
-/* Fuente Roboto y centrado vertical/horizontal */
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   min-height: 100vh;
-
-  /* Centrado con flexbox */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-/* Limita el ancho del contenedor principal */
 #main-container {
   max-width: 600px;
 }
-
-/* Estilo para las banderas */
 .flag {
   width: 30px;
   cursor: pointer;
